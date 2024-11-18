@@ -26,5 +26,5 @@ phases:
       - go build
 artifacts:
   files:
-    - 'go241118'
-  name: go241118_${GOOS}_${GOARCH}_$(echo $CODEBUILD_RESOLVED_SOURCE_VERSION | cut -c 1-7)
+    - 'example'
+  name: example_${GOOS}_${GOARCH}_$(echo $CODEBUILD_RESOLVED_SOURCE_VERSION | cut -c 1-7)
