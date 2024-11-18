@@ -16,6 +16,6 @@ func main() {
 	t := tabby.New()
 	t.AddHeader("NAME", "TITLE", "DEPARTMENT2")
 	t.AddLine("John Smith", "Developer", "Engineering")
-	t.AddLine("Stefan Holmberg", "Developer", "Whatever")
+	t.AddLine("Stefan Holmberg", "Developer", "Whatever2")
 	t.Print()
 }
