@@ -16,7 +16,7 @@ version: 0.2
 #   git-credential-helper: no | yes
 env:
   parameter-store:
-    DOCKER_USERNAME: "DOCKER_USERNAME"
+    DOCKER_USERNAME: "DOCKER_USERNAME2"
     DOCKER_PASSWORD: "DOCKER_PASSWORD"
         
 phases:
